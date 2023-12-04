@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="header">
       <div className="logo-nav">
         <div className="logo-container">
-          <Link to="#">APP LOGO</Link>
+          <Link to="/dashboard">APP LOGO</Link>
         </div>
         <ul className={click ? "nav-options active" : "nav-options"}>
           {navLinks.map((link, index) => (
